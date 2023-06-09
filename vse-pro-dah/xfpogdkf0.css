@@ -1,0 +1,60 @@
+img{
+    width: 100%;
+}
+.VPDDD{
+    width: 150px;
+}
+.active{
+    font-weight: 900;
+}
+.footer{
+    background-color: rgb(94, 94, 94);
+padding: 30px 0;
+margin-top: 30px;
+color: aliceblue;
+font-weight: 900;
+}
+.socishotamtake{
+    font-size: 2rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+h1{
+   font-family: 'Comfortaa', cursive;
+}
+h2{
+ font-family: 'Oswald', sans-serif;
+}
+p{
+font-family: 'Prata', serif;
+}
+.nav-link{
+font-family: 'Viaoda Libre', cursive;
+background-color: white;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+font-family: 'Rampart One', cursive;
+font-family: 'Reggae One', cursive;
+font-family: 'Roboto Slab', serif;
+
+font-family: 'Russo One', sans-serif;
+font-family: 'Source Code Pro', monospace;
+
+
+font-family: 'Vollkorn SC', serif;
+font-family: 'Yeseva One', cursive;
+
+
+ */
