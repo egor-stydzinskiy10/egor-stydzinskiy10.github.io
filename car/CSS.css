@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Dela+Gothic+One&family=Didact+Gothic&family=Gabriela&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=M+PLUS+1p&family=Marmelad&family=Oi&family=Oranienbaum&family=Orelega+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Seymour+One&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&family=Yeseva+One&display=swap');
+img{
+    margin: 0;
+}
+html, body {
+    overflow-x: hidden;
+}
+body {
+    font-family: cursive;
+    background: rgb(45, 45, 45);
+    color: aqua;
+}
+
+video{
+    width: 100%;
+}
+.mova {
+    text-align: center;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Renault {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+b {
+    color: lightgreen;
+}
+
+h1 {
+    font-family: "Yeseva One", serif;
+
+}
+h2{
+    font-family: "Literata", serif;
+}
+
+h3 {
+    font-family: "Marmelad", sans-serif !important;
+    
+}
+h4{
+    font-family: "Didact Gothic", sans-serif;
+}
+
+button {
+    font-family: "Didact Gothic", sans-serif !important;
+
+}
+.detail{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.show-more-btn {
+    width: 98%;
+    background-color: #fff;
+    display: block;
+    margin: 50px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    font-family: "Comfortaa", sans-serif !important;
+    font-weight: 700;
+}
+.show-more-btn:hover{
+    background-color: #cfcfcf;
+    color: rgb(54, 54, 54);
+}
+
+
+
+
+
+.characteristic-div {
+    height: 0px;
+    display: none;
+    overflow-y: auto;
+    background-color: #070e2bdf;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2em;
+    transition: 0.5s;
+
+}
+.close:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #d9d9d9;
+}
+
+/* ширина скрола */
+.characteristic-div::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* колір скролу колір бігунка на скоролі*/
+.characteristic-div::-webkit-scrollbar-track {
+    background: #d9d9d9;
+}
+
+/*колір бігунка на скоролі*/
+::-webkit-scrollbar-thumb {
+    background: #00fff7;
+}
+
+/* колір скрола при наведенні */
+::-webkit-scrollbar-thumb:hover {
+    background: #656565;
+}
+
+
+@keyframes showCarDetail {
+    0% {
+        height: 0px;
+        /* width: 0; */
+
+    }
+
+    100% {
+        height: 400px;
+        /* width: 100%; */
+    }
+}
+
+@keyframes hideCarDetail {
+    0% {
+        height: 400px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+
+.nav-link{
+    font-family: "Wix Madefor Text", sans-serif;
+}
+.dropdown-item{
+    font-family: "Marmelad", sans-serif !important;
+}
+
+/* 
+font-family: "Raleway", sans-serif;
+font-family: "Comfortaa", sans-serif;
+font-family: "M PLUS 1p", sans-serif;
+font-family: "Didact Gothic", sans-serif;
+font-family: "Literata", serif;
+font-family: "Yeseva One", serif;
+font-family: "Wix Madefor Text", sans-serif;
+font-family: "Dela Gothic One", sans-serif;
+font-family: "Oranienbaum", serif;
+font-family: "Marmelad", sans-serif;
+font-family: "Scada", sans-serif;  - 700, 400
+font-family: "Spectral SC", serif;   -  200 - 800
+font-family: "Gabriela", serif;
+font-family: "Cormorant Unicase", serif; - 300 - 700
+font-family: "Orelega One", serif;
+font-family: "Charis SIL", serif; - 400 - 700
+font-family: "Charis SIL", serif;
+font-family: "Bona Nova", serif; - 400 - 700
+font-family: "Alumni Sans Collegiate One", sans-serif;
+font-family: "Oi", serif;
+ */
